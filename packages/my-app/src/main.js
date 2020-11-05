@@ -2,6 +2,8 @@
 // compiled by babel using the `transpileDependencies` option
 import AppAuthHelper from 'appauthhelper/appAuthHelperCompat';
 
+AppAuthHelper.init({});
+
 
 // This is some ES2015+ syntax used in the actual app
 (() => {

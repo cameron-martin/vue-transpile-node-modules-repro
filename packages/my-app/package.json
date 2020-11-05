@@ -2,12 +2,9 @@
     "name": "my-app",
     "version": "0.0.1",
     "scripts": {
-        "build": "vue-cli-service build"
+        "build": "webpack --config ./webpack.config.js"
     },
     "dependencies": {
-        "@vue/cli": "4.5.8",
-        "@vue/cli-plugin-babel": "4.5.8",
-        "@vue/cli-service": "4.5.8",
         "appauthhelper": "0.3.17"
     }
 }

@@ -1,5 +1,9 @@
 module.exports = {
+  babelrcRoots: [
+    '.',
+    'packages/*',
+  ],
   presets: [
-    ['@vue/app', { useBuiltIns: 'entry' }],
+    ['@babel/preset-env', { useBuiltIns: 'entry' }],
   ],
 };
